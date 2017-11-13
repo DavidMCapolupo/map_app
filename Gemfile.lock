@@ -75,6 +75,10 @@ GEM
     crass (1.0.2)
     database_cleaner (1.6.2)
     diff-lcs (1.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     execjs (2.7.0)
     factory_girl (4.9.0)
@@ -118,7 +122,6 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    pg (0.21.0)
     popper_js (1.12.5)
     public_suffix (3.0.1)
     puma (3.10.0)
@@ -232,6 +235,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   database_cleaner
+  dotenv-rails
   factory_girl_rails
   faker
   geocoder
@@ -241,7 +245,6 @@ DEPENDENCIES
   jquery-rails
   launchy
   listen (>= 3.0.5, < 3.2)
-  pg
   puma (~> 3.7)
   rails (~> 5.1.4)
   rails_layout
